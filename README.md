@@ -1,3 +1,5 @@
 # local_manifests
 
-Unnofficial build of cm
+Manifest
+
+Local manifests for myself for Unnofficial build of cm
