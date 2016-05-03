@@ -27,4 +27,10 @@
   <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />  
   
+
+  --Nexus 5 CAF Cyanogenmod/Kylon Repo--
+    <project name="preshot2989/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
+    <project name="preshot2989/android_kernel_lge_hammerheadcaf" path="kernel/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
+    <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="bitbucket" revision="cm-13.0" />
+
 </manifest>
