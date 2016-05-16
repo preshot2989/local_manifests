@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
 	
   ---remove project---	
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_vendor_cm" /> 
+  <remove-project name="CyanogenMod/android_vendor_cm" />
   <remove-project name="CyanogenMod/android_system_bt" path="system/bt" /> 
   
   --Cyanogenmod Repo--
@@ -29,8 +30,9 @@
   
 
   --Nexus 5 CAF Cyanogenmod/Kylon Repo--
-    <project name="preshot2989/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
-    <project name="preshot2989/android_kernel_lge_hammerheadcaf" path="kernel/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
-    <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="bitbucket" revision="cm-13.0" />
-
+  <project name="preshot2989/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
+  <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="bitbucket" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" />
+  <project name="preshot2989/kernel_lge_hammerhead-caf" path="kernel/lge/hammerheadcaf" remote="github" revision="cm-13.0-caf" />
+  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-13.0-caf" />
 </manifest>
