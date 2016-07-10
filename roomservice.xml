@@ -18,5 +18,6 @@
   <project name="preshot2989/android_system_bt" path="system/bt" remote="github" revision="mm6.0" />
   <project name="preshot2989/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="mm6.0" />
   <project name="preshot2989/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm6.0" />
- 
+  <project name="preshot2989/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm6.0" />
+  <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="mm6.0" />
 </manifest>
