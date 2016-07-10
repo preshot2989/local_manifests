@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+  --remove project--
+ 
+  <remove-project name="SlimRoms/vendor_slim" path="vendor/slim" /> 
+  <remove-project name="SlimRoms/frameworks_base" path="frameworks_base" /> 
+  <remove-project name="SlimRoms/android_build" path="build" /> 
+  <remove-project name="SlimRoms/android_system_bt" path="system/bt" /> 
+  <remove-project name="SlimRoms/packages_apps_Settings" path="packages/apps/Settings" /> 
+	
+
+  --Slim Repo For Nexus5--
+  <project name="preshot2989/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="mm6.0.1" />
+  <project name="preshot2989/vendor_slim" path="vendor/slim" remote="github" revision="mm6.0" />
+  <project name="preshot2989/frameworks_base" path="frameworks_base" remote="github" revision="mm6.0" />
+  <project name="preshot2989/android_build" path="build" remote="github" revision="mm6.0" />
+  <project name="preshot2989/android_system_bt" path="system/bt" remote="github" revision="mm6.0" />
+  <project name="preshot2989/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="mm6.0" />
+  <project name="preshot2989/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm6.0" />
+ 
+</manifest>
