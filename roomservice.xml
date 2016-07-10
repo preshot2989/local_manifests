@@ -13,7 +13,7 @@
   --Slim Repo For Nexus5--
   <project name="preshot2989/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="mm6.0.1" />
   <project name="preshot2989/vendor_slim" path="vendor/slim" remote="github" revision="mm6.0" />
-  <project name="preshot2989/frameworks_base" path="frameworks_base" remote="github" revision="mm6.0" />
+  <project name="preshot2989/frameworks_base" path="frameworks/base" remote="github" revision="mm6.0" />
   <project name="preshot2989/android_build" path="build" remote="github" revision="mm6.0" />
   <project name="preshot2989/android_system_bt" path="system/bt" remote="github" revision="mm6.0" />
   <project name="preshot2989/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="mm6.0" />
