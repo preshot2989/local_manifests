@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+	  fetch="https://github.com/" />
+
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio"
+	  revision="refs/tags/android-6.0.1_r50" groups="qcom,qcom_audio" />
+
+  <project path="device/lge/mako" name="ganadist/device_lge_mako" groups="device,mako"
+		remote="github" revision="nougat-mako-dev" />
+  <project path="device/lge/occam" name="ganadist/device_lge_occam" groups="device,mako"
+		remote="github" revision="nougat-mako-dev" />
+
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako"
+		clone-depth="1" revision="lollipop-mr1-dev" />
+  <project path="kernel/msm/mako" name="ganadist/kernel_msm" groups="device,mako"
+		remote="github" revision="nougat-mako-dev" />
+</manifest>

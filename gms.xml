@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+	  fetch="https://github.com/" />
+  <project path="vendor/google" name="ganadist/gms_addon"
+		revision="nougat-mako-dev" remote="github" />
+  <project path="vendor/fake_nexus" name="ganadist/vendor_fake_nexus"
+		revision="nougat-dev" remote="github" />
+  
+</manifest>
