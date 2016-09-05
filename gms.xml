@@ -3,8 +3,8 @@
   <remote  name="github"
 	  fetch="https://github.com/" />
   <project path="vendor/google" name="ganadist/gms_addon"
-		revision="nougat-mako-dev" remote="github" />
+		revision="nougat-hammerhead-wip" remote="github" />
   <project path="vendor/fake_nexus" name="ganadist/vendor_fake_nexus"
-		revision="nougat-dev" remote="github" />
+		revision="nougat-hammerhead-wip" remote="github" />
   
 </manifest>
