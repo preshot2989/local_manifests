@@ -69,15 +69,8 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86"  />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"  />
 
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio"
-	  revision="refs/tags/android-6.0.1_r68" groups="qcom,qcom_audio" />
-
-  <!--
-  <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan"
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"
       revision="refs/tags/android-6.0.1_r68" />
-      -->
 
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="device,hammerhead"
       revision="refs/tags/android-6.0.1_r68" />
@@ -88,7 +81,7 @@
   <project path="kernel/msm/hammerhead" name="ganadist/kernel_msm" groups="device,hammerhead"
 		remote="github" revision="nougat-hammerhead-dev" />
 
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead"
+  <project path="device/lge/hammerhead" name="ganadist/device_lge_hammerhead" groups="device,hammerhead"
 		remote="github" revision="nougat-wip" />
 
   <project path="vendor/broadcom/hammerhead" name="ganadist/vendor_broadcom_hammerhead"

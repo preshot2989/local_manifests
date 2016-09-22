@@ -2,9 +2,11 @@
 <manifest>
   <remote  name="github"
 	  fetch="https://github.com/" />
+
   <project path="vendor/google" name="ganadist/gms_addon"
-		revision="nougat-hammerhead-wip" remote="github" />
+		revision="nougat-dev" remote="github" />
   <project path="vendor/fake_nexus" name="ganadist/vendor_fake_nexus"
-		revision="nougat-hammerhead-wip" remote="github" />
-  
+		revision="nougat-dev" remote="github" >
+      <copyfile src="build/buildspec.mk" dest="buildspec.mk" />
+  </project>
 </manifest>
