@@ -82,7 +82,7 @@
 		remote="github" revision="nougat-hammerhead-dev" />
 
   <project path="device/lge/hammerhead" name="ganadist/device_lge_hammerhead" groups="device,hammerhead"
-		remote="github" revision="nougat-wip" />
+		remote="github" revision="nougat-dev" />
 
   <project path="vendor/broadcom/hammerhead" name="ganadist/vendor_broadcom_hammerhead"
 		remote="github" revision="nougat-dev" clone-depth="1" />
