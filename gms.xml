@@ -9,4 +9,6 @@
 		revision="nougat-dev" remote="github" >
       <copyfile src="build/buildspec.mk" dest="buildspec.mk" />
   </project>
+  <remove-project name="platform/external/svox"  />
+  <remove-project name="platform/packages/inputmethods/OpenWnn"  />
 </manifest>
