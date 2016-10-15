@@ -1,5 +1,5 @@
 # local_manifests
 
-Manifest
+Manifest for Moto_G_2013_CM-13.0
 
-Local manifests for myself for Unnofficial build of cm
+Clone git@github.com:preshot2989/local_manifests.git -b cm-13-moto
