@@ -23,16 +23,9 @@
   ---Moto G Fork Repo--
   <project name="preshot2989/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-13.0" />
   <project name="preshot2989/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0" />
+  <project name="preshot2989/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-13.0" />
   
-  ---Moto G Cyanogenmod Repo--
-  <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
+  ---Moto G Cyanogenmod Repo-- 
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />  
   
-
-  --Nexus 5 CAF Cyanogenmod/Kylon Repo--
-  <project name="preshot2989/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="bitbucket" revision="cm-13.0caf" />
-  <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="bitbucket" revision="cm-13.0" />
-  <project name="CyanogenMod/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" />
-  <project name="preshot2989/kernel_lge_hammerhead-caf" path="kernel/lge/hammerheadcaf" remote="github" revision="cm-13.0-caf" />
-  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-13.0-caf" />
 </manifest>
