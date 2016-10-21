@@ -69,9 +69,6 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86"  />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"  />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"
-      revision="refs/tags/android-6.0.1_r68" />
-
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="device,hammerhead"
       revision="refs/tags/android-6.0.1_r68" />
 
