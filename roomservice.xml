@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
 	
-  --remove project--
- 
-  <remove-project name="SlimRoms/vendor_slim" path="vendor/slim" /> 
-  <remove-project name="SlimRoms/frameworks_base" path="frameworks_base" /> 
-  <remove-project name="SlimRoms/android_build" path="build" /> 
-  <remove-project name="SlimRoms/android_system_bt" path="system/bt" /> 
-  <remove-project name="SlimRoms/packages_apps_Settings" path="packages/apps/Settings" /> 
-	
-
-  --Slim Repo For Nexus5--
-  <project name="preshot2989/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="mm6.0.1" />
-  <project name="preshot2989/vendor_slim" path="vendor/slim" remote="github" revision="mm6.0" />
-  <project name="preshot2989/frameworks_base" path="frameworks/base" remote="github" revision="mm6.0" />
-  <project name="preshot2989/android_build" path="build" remote="github" revision="mm6.0" />
-  <project name="preshot2989/android_system_bt" path="system/bt" remote="github" revision="mm6.0" />
-  <project name="preshot2989/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="mm6.0" />
-  <project name="preshot2989/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm6.0" />
-  <project name="preshot2989/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="mm6.0" />
+  ---remove project---	
+  <remove-project name="omnirom/android_packages_apps_Settings" />
+  <remove-project name="omnirom/android_frameworks_base" />
+  <remove-project name="omnirom/android_build" />
+  <remove-project name="omnirom/android_vendor_omni" />
+  
+  
+  ---My Clone branches
+  <project name="omniN5/android_build" path="build" remote="github" revision="android-6.0" />
+  <project name="omniN5/android_frameworks_base" path="frameworks/base" remote="github" revision="android-6.0" />
+  <project name="omniN5/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-6.0" />
+  <project name="omniN5/android_vendor_omni" path="vendor/omni" remote="github" revision="android-6.0" />
+  <project name="omniN5/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="android-6.0" />
+  <project name="omniN5/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-6.0" />
+  <project name="DonkeyCoyote/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="android-6.0" />
 </manifest>
