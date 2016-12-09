@@ -21,6 +21,4 @@
   <project name="omniN5/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-6.0" />
   <project name="DonkeyCoyote/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="android-6.0" />
   <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-6.0" />
-  <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="omnirom" revision="android-6.0" />
-  <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="omnirom" revision="android-6.0" />
 </manifest>
