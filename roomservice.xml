@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
-  <remote fetch="ssh://git@bitbucket.org" name="bitbucket" />
-	
-  ---remove project---	
-  <remove-project name="omnirom/android_packages_apps_Settings" />
-  <remove-project name="omnirom/android_frameworks_base" />
-  <remove-project name="omnirom/android_build" />
-  <remove-project name="omnirom/android_vendor_omni" />
+
+
+   -- Removed projects --
+  <remove-project name="android_frameworks_base" />
+  <project name="omniN5/android_frameworks_base" path="frameworks/base" remote="github" revision="android-6.0" />
+  <remove-project name="android_build" />
+  <project name="omniN5/android_build" path="build" remote="github" revision="android-6.0" />
+  <remove-project name="android_packages_apps_Settings" />
+  <project name="omniN5/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-6.0" />
+  <remove-project name="android_vendor_omni" />
+  <project name="omniN5/android_vendor_omni" path="vendor/omni" remote="github" revision="android-6.0" />
+  <remove-project name="android_packages_apps_OmniStyle" />
+  <project name="omniN5/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="android-6.0" />
   
   
   ---My Clone branches
-  <project name="omniN5/android_build" path="build" remote="github" revision="android-6.0" />
-  <project name="omniN5/android_frameworks_base" path="frameworks/base" remote="github" revision="android-6.0" />
-  <project name="omniN5/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-6.0" />
-  <project name="omniN5/android_vendor_omni" path="vendor/omni" remote="github" revision="android-6.0" />
   <project name="omniN5/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="android-6.0" />
   <project name="omniN5/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-6.0" />
   <project name="DonkeyCoyote/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="android-6.0" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-6.0" />
+  <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="omnirom" revision="android-6.0" />
+  <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="omnirom" revision="android-6.0" />
 </manifest>
