@@ -1,3 +1,3 @@
 # local_manifests
 
-Unnofficial build of cm
+Local Manifest for MOTO G (2013) & Nexus 5
