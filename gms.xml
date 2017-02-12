@@ -5,7 +5,7 @@
 
   <project path="vendor/google" name="ganadist/gms_addon"
 		revision="nougat-dev" remote="github" />
-  <project path="vendor/fake_nexus" name="ganadist/vendor_fake_nexus"
+  <project path="vendor/fake_nexus" name="preshot2989/vendor_fake_nexus"
 		revision="nougat-dev" remote="github" >
       <copyfile src="build/buildspec.mk" dest="buildspec.mk" />
   </project>

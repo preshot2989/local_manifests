@@ -75,17 +75,17 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="device,hammerhead"
       revision="refs/tags/android-6.0.1_r68" />
 
-  <project path="kernel/msm/hammerhead" name="ganadist/kernel_msm" groups="device,hammerhead"
+  <project path="kernel/msm/hammerhead" name="preshot2989/kernel_msm" groups="device,hammerhead"
 		remote="github" revision="nougat-hammerhead-dev" />
 
-  <project path="device/lge/hammerhead" name="ganadist/device_lge_hammerhead" groups="device,hammerhead"
+  <project path="device/lge/hammerhead" name="preshot2989/device_lge_hammerhead" groups="device,hammerhead"
 		remote="github" revision="nougat-dev" />
 
-  <project path="vendor/broadcom/hammerhead" name="ganadist/vendor_broadcom_hammerhead"
+  <project path="vendor/broadcom/hammerhead" name="preshot2989/vendor_broadcom_hammerhead"
 		remote="github" revision="nougat-dev" clone-depth="1" />
-  <project path="vendor/lge/hammerhead" name="ganadist/vendor_lge_hammerhead"
+  <project path="vendor/lge/hammerhead" name="preshot2989/vendor_lge_hammerhead"
 		remote="github" revision="nougat-dev" clone-depth="1" />
-  <project path="vendor/qcom/hammerhead" name="ganadist/vendor_qcom_hammerhead"
+  <project path="vendor/qcom/hammerhead" name="preshot2989/vendor_qcom_hammerhead"
 		remote="github" revision="nougat-dev" clone-depth="1" />
 
 </manifest>
