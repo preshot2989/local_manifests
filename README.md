@@ -1,3 +1,3 @@
 # local_manifests
 
-Local Manifest for MOTO G (2013) & Nexus 5
+Local Manifest for OnePlus2 LineageOS
