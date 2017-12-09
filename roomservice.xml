@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     --LineageOS Repo--
 	
+   --LineageOS Repo-- Remove 
+  <remove-project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" /> 
+  <remove-project name="LineageOS/android_build" path="build" /> 
+
+   --Add Project--	
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
   <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" />	
@@ -11,6 +15,6 @@
   <project name="preshot2989/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" revision="cm-14.1" />
   <project name="preshot2989/android_device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+  <project name="preshot2989/android_build" path="build" remote="github" revision="cm-14.1" />
+  <project name="preshot2989/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-14.1" />
 </manifest>
-
-
