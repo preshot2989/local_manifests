@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+
+  <project name="preshot2989/vendor_xiaomi"                           path="vendor/xiaomi"                     remote="github" revision="master" />
+  <project name="preshot2989/android_kernel_xiaomi_msm8953"           path="kernel/xiaomi/msm8953"             remote="github" revision="lineage-17.1" />
+  <project name="preshot2989/android_device_xiaomi_msm8953-common"    path="device/xiaomi/msm8953-common"      remote="github" revision="lineage-17.1" />
+  <project name="preshot2989/android_device_xiaomi_tissot"            path="device/xiaomi/tissot"              remote="github" revision="lineage-17.1" />
+</manifest>
