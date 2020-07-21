@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# This is a script to automate the build process and clean the out dir after each build.
+# It will log the duration of the build as well as copy the .zip and .md5sum to a pre-defined folder.
+# Written by Tim Clark
+
+## User configurable variables
+LOS_ZIP_DIR=/home/kacang2989/kacang/result/
+
+## Sync Repos
+repo sync -j32
+
+## Setup Environment
+source build/envsetup.sh
+lunch lineage_"$1"-userdebug
+export USE_CCACHE=true
+export TIMEFORMAT='%3lR'
+
+## Begin build process and write duration stats to logfile
+echo "Begining build process"
+( time mka bacon ) 2> "$1"-log.txt
+
+## Copy log
+echo "Copying log..."
+cp "$1"-log.txt "$LOS_ZIP_DIR"
+
+## Detect if zip was created, then move to LOS ZIP DIR and remove product folder.
+if [ -e "$T"/out/target/product/"$1"/lineage-*.zip ]
+    then
+        ## Move zip to nightlies folder
+        echo "Moving ROM zip and md5sum to nightlies folder"
+        cp "$T"/out/target/product/"$1"/lineage-*zip* "$LOS_ZIP_DIR"
+        ## Make clobber
+        cd "$T"
+        make clobber
+fi
