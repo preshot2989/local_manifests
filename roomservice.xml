@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="gitlab" 
+           fetch="https://gitlab.com/"
+           revision="lineage-18.1" />
+		   
+	<project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" />
+
+<!-- Repo Removes -->
+   remove-project name="LineageOS/android_device_xiaomi_alioth" 		path="device/xiaomi/alioth" /--->
+   remove-project name="LineageOS/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" /--->
+   remove-project name="LineageOS/android_hardware_xiaomi" 			path="hardware/xiaomi" /-->
+   remove-project name="LineageOS/android_kernel_xiaomi_sm8250" 		path="kernel/xiaomi/sm8250" /-->
+
+   
+   
+   
+ <!-- Own Repo --> 
+  <project path="device/xiaomi/alioth" 		  remote="github" name="preshot2989/android_device_xiaomi_alioth" 			revision="lineage-18.1" />
+  <project path="device/xiaomi/sm8250-common" remote="github" name="preshot2989/android_device_xiaomi_sm8250-common"    revision="lineage-18.1" />
+  <project path="hardware/xiaomi" 			  remote="github" name="preshot2989/android_hardware_xiaomi" 				revision="lineage-18.1" />
+  <project path="kernel/xiaomi/sm8250" 		  remote="github" name="preshot2989/android_kernel_xiaomi_sm8250" 			revision="lineage-18.1" />
+
+</manifest>
+
+
+
+
+
